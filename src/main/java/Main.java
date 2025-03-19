@@ -10,7 +10,7 @@ public class Main {
     System.out.print("Wprowadź liczbę b: ");
     int b = scanner.nextInt();
     
-    int suma = sqrt(a) + sqrt(b);
+    double suma = Math.sqrt(a) + Math.sqrt(b);
     System.out.println("Suma pierwiastków " + a + " oraz " + b + " jest równa: " + suma);
     
     scanner.close();
