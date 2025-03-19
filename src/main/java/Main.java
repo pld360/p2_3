@@ -10,8 +10,8 @@ public class Main {
     System.out.print("Wprowadź liczbę b: ");
     int b = scanner.nextInt();
     
-    int suma = a + b;
-    System.out.println("Suma " + a + " oraz " + b + " jest równa: " + suma);
+    int suma = sqrt(a) + sqrt(b);
+    System.out.println("Suma pierwiastków " + a + " oraz " + b + " jest równa: " + suma);
     
     scanner.close();
   }
